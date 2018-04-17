@@ -10,28 +10,7 @@
 <body>
     <div id="container"></div>
 <script type = "text/babel">
-var Buttonify = React.createClass({
-    render:function(){
-        return(
-            <div>
-            <button type={this.props.behavior}>{this.props.children}</button>
-            </div>
-        );
-    }
-});
-var HelloWorld = React.createClass({
-render:function (){
-    return (
-        <p>Hello, {this.props.greetTarget}!</p>
-    )
-    
-}
-});
-ReactDOM.render(
-   <div>
-   <Buttonify behavior = "Submit">Send Data</Buttonify>
-   </div>,document.querySelector("#container")
-);
+
 </script>
 </body>
 </html>
